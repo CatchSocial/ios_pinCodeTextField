@@ -283,9 +283,9 @@ static const CGFloat KKDefaultBordersSpacing = 10;
     super.adjustsFontSizeToFitWidth = NO;
 }
 
-- (void)setKeyboardType:(UIKeyboardType)keyboardType {
-    super.keyboardType = UIKeyboardTypeNumberPad;
-}
+// - (void)setKeyboardType:(UIKeyboardType)keyboardType {
+//     super.keyboardType = UIKeyboardTypeNumberPad;
+// }
 
 - (void)setTextAlignment:(NSTextAlignment)textAlignment {
     super.textAlignment = NSTextAlignmentLeft;

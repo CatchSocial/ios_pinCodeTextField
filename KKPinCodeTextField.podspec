@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     
     s.name             = 'KKPinCodeTextField'
-    s.version          = '1.0.0'
+    s.version          = '1.0.0.1'
     s.summary          = 'TextField for verification codes'
     
     s.description      = <<-DESC
