@@ -125,7 +125,7 @@ static const CGFloat KKDefaultBordersSpacing = 10;
     NSString *currentString = [textField.text stringByReplacingCharactersInRange:range withString:string];
     NSUInteger length = [currentString length];
     
-    if (![self isOnlyNumbersString:string]) {
+    if (self.keyboardType == UIKeyboardTypeNumberPad && ![self isOnlyNumbersString:string]) {
         return NO;
     }
     
